@@ -1,6 +1,4 @@
-# Woocommerce-WP-Astra-Theme-Hooks
-
-<h1>Astra Theme Hooks for WooCommerce Categories and Brands/h1>
+<h1>Astra Theme Hooks for WooCommerce Categories and Brands</h1>
 
 This plugin provides an enhancement to the WooCommerce product categories and brand taxonomies by allowing the user to select and display content from astra-advanced-hook custom post type on top and bottom of the taxonomy archive pages.
 
