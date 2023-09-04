@@ -87,6 +87,6 @@ function astra_display_taxonomy_bottom_content() {
     }
 }
 
-remove_action('woocommerce_before_shop_loop', 'get_shop_content', 1);
-add_action('woocommerce_before_main_content', 'astra_display_taxonomy_top_content', 5);
-add_action('woocommerce_after_main_content', 'astra_display_taxonomy_bottom_content', 20);
+
+add_action('woocommerce_archive_description', 'astra_display_taxonomy_top_content', 5);
+add_action('woocommerce_after_shop_loop', 'astra_display_taxonomy_bottom_content', 20);
